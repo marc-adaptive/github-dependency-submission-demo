@@ -13,6 +13,7 @@ dependencies {
     implementation(libs.jackson)
     api(libs.logging)
 
+
     constraints {
         // Force a newer version of commons-compress in transitive resolution
         implementation(libs.commons.compress)
